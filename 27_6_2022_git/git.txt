@@ -1,0 +1,78 @@
+cloud-system ha common ha oru edathula vachutu anga erunthu elam access panna athan cloud.
+
+git na version control soluvanga appidina client requiremnet ha mathita eurupan like entha feature vena,entha version vena 
+adhuku etha mathiri code la changes pani commit panuvom. 
+
+
+how to push,pull in git .
+
+repositiory-is a container or folder
+mothala local la repositiory create pananum adhuku yentha folder ha repo va nenaikuromo anga poi git init
+kudukanum init-initialize so adhu unoda vscode erukura elamae changes ku maridum.
+
+folder path git init.
+
+
+global-na common ha elathukum orae oru repo.
+system 
+local -oru repo oru account enoru repo enoru account na edhu use pannaum.
+
+git config --global user.name "git oda username tharanum".
+git config --global user.email "git oda mailid tharanum".
+
+
+git config --list =kudutha naba mela paniruka username and password lam display agum.
+
+git branch =kudutha local folder la erukurathulam katum nenaikuren doubt ha eruku.
+
+
+git status = kudutha commit aga tha files lam  red color la katuthu.
+
+git add particular file name = kudukanum like about.css.
+
+git add .  = kudutha ela files um add agidum.
+
+for eg ena panuren add panna file la poi  changes panitu git.status kudutha erundu vati katum file 
+onu saved file enonu unsaved file 
+
+git commit -m "message tharanum present la kudutha better" aprm git status kuduthutu
+ patha nothing to commit nu varum appidi vantha commit aga edhuvum illa nu artham.
+
+
+ next git push 
+ oru fatal error katum no configured push destination-that means local la repo cretae pani achu cloud la repo create
+ panala anga create panitu.
+  code->https engathan url eruku.
+ 
+ git bash poitu git add url add pannanum yentha url na github la oru repo create
+ panomla antha clone oani edhuthutu vanthu git add url eruku la url la paste panidanum.
+
+ again git push command add pannnum appidi pana  fatal error katum no configured push .
+
+ first first panna sola kela erukurathu tharanum 
+
+ git remote add orgin url thanum create pana repo oda url code->https engathan url eruku
+  orgin edhuku na main branch  edhu mulayama ha local and git um connect agidum.
+
+ upstream branch-main mela oru branch ha create pannu.
+  aprm git push kudutha lum  upstream branch error adikum ena na pudusu la entha branch um erukathu and 
+  edhu main ha point panitu erukum 
+
+git push --set -upstream orgin master.
+edhu kudutha odan sign kekaum illa na commnad linne laya usernam password tharanum.
+  
+  
+
+
+
+steps
+folder path git init.
+git config --global user.name "git oda username tharanum".
+git config --global user.email "git oda mailid tharanum".
+git config --list
+git status
+git add .
+git commit -m "message tharanum present la kudutha better" 
+ next git push 
+git remote add origin url
+git push --set-upstream origin master.

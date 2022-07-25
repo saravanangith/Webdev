@@ -1,0 +1,34 @@
+.fi {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  /*height and width theriyarathukaga background color apply pannanum
+  for eg width 500 kudutha next line pogum adhukaga adhu block sola kudutha browser size poruthu so athan pothu
+  */
+
+  background-color: yellowgreen;
+}
+
+.new {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  background-color: yellowgreen;
+}
+
+/*
+third scenario
+p {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  background-color: yellowgreen;
+}
+
+.new {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  background-color: yellowgreen;
+}
+*/

@@ -1,0 +1,91 @@
+/*   grid-column-start: 1; entha number lam right click panitu inspect kuduthutu
+naba tags pakathula nu erukum atha press pana theriyum */
+
+section {
+  /* 1 */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* 2 */
+  grid-template-rows: 50px 200px 50px;
+  /* 16 */
+  grid-gap: 5px;
+}
+/* -----------------------------------
+1st layout
+*/
+.header {
+  /* 4 */
+  background-color: aqua;
+  /* 6 */
+  grid-column-start: 1;
+  /* 7 */
+  grid-column-end: -1;
+}
+.menu {
+  /* 5 */
+  background-color: yellowgreen;
+  /* 8 */
+  grid-column-start: 1;
+  /* 9 */
+  grid-column-end: 2;
+}
+.section {
+  /* 6 */
+  background-color: tomato;
+  /* 10 */
+  grid-column-start: 2;
+  /* 11 */
+  grid-column-end: 4;
+}
+.footer {
+  /* 7 */
+  background-color: blue;
+  /* 12 */
+  grid-column-start: 1;
+  /* 13 */
+  grid-column-end: -1;
+}
+/* -----------------------------------------------------------------
+2nd layout
+*/
+
+.header {
+  /* 4 */
+  background-color: aqua;
+  /* 6 */
+  grid-column-start: 2;
+  /* 7 */
+  grid-column-end: -1;
+}
+.menu {
+  /* 5 */
+  background-color: yellowgreen;
+  /* 8 */
+  grid-column-start: 1;
+  /* 9 */
+  grid-column-end: 2;
+  /* 12 */
+  grid-row-start: 1;
+  /* 13 */
+  grid-row-end: 3;
+}
+.section {
+  /* 6 */
+  background-color: tomato;
+  /* 10 */
+  grid-column-start: 2;
+  /* 11 */
+  grid-column-end: 4;
+  /* 14 */
+  grid-row-start: 2;
+  /* 15 */
+  grid-row-end: -1;
+}
+.footer {
+  /* 7 */
+  background-color: blue;
+  /* 12 */
+  grid-column-start: 1;
+  /* 13 */
+  grid-column-end: 2;
+}

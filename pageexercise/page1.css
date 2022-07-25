@@ -1,0 +1,43 @@
+body {
+  /*  background-color: black;*/
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+.main {
+  display: inline-block;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-left: 25px;
+  float: right;
+}
+h6 {
+  color: white;
+}
+h1 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+h5 {
+  color: white;
+}
+.firts {
+  height: 200px;
+}
+.second {
+  height: 200px;
+  width: 500px;
+  margin-left: 30%;
+}
+.total {
+  background-color: aqua;
+}

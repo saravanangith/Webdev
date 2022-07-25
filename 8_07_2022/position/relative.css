@@ -1,0 +1,27 @@
+.main {
+  border: 2px solid black;
+}
+
+.box {
+  width: 10rem;
+  height: 10rem;
+}
+
+.box-one {
+  background-color: turquoise;
+}
+/* position relative means earth surface la erunthu katha kati vita mathiri otitu erukum
+reference anga than erukum dom vitu povathu antha box oda center la erunthu move agum 
+antha box oda space appidiya than erukum 
+z-index is nothing but z axis positive la kudutha mela varum 
+negative kudutha kela pogum i mean bottom ku pogum */
+.box-two {
+  background-color: teal;
+  position: relative;
+  z-index: -1;
+  left: 10px;
+  bottom: 20px;
+}
+.box-three {
+  background-color: royalblue;
+}

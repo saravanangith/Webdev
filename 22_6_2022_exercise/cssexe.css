@@ -1,0 +1,26 @@
+table {
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 2px solid black;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+}
+/* edhu va tr pakathula space kudutha vera color varuthu may be bug ha erukalam
+
+n=0
+but naba table 1 la erunthu than start aguthu
+tr:nth-child(2n) {
+  background-color: brown;
+}
+*/
+/*
+edhula n=0 start ana first value 1 agum ha so table head um 1 than tbody um layum 1la erunthu than start agum
+so erundu thukum color apply agum and footer kum aguthu bcoz start at 1.
+tr:nth-child(2n+1) {
+  background-color: brown;
+}
+*/

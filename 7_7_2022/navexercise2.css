@@ -1,0 +1,19 @@
+a {
+  display: inline-block;
+  text-decoration: none;
+
+  color: white;
+  padding: 20px;
+}
+ol {
+  margin: 0;
+}
+ol li {
+  list-style-type: none;
+}
+div {
+  background-color: black;
+  /* yen entha color ha anchor tag inherit panala */
+  color: purple;
+  text-align: right;
+}

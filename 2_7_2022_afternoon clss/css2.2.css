@@ -1,0 +1,58 @@
+/*
+border property
+*/
+
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: gold;
+  /*edhu normal edhuva top,righ,botto,left edhukalam vera vera width kudukanum na vera mathiri than apply pananum
+  border: 2px solid black;*/
+
+  /*
+  2.
+   px poda sola pakthula comma podakudathu pota work agathu
+  border: 0 solid black;
+  border-width: 5px 10px 15px 20px;
+
+  */
+
+  /*3.
+
+  top right elathukum thani thani apply panura mathiri edhu
+  border-top: 2px dotted black;
+  border-right: 2px solid purple;
+  border-bottom: 2px dotted greenyellow;
+  border-left: 2px groove blue;
+}
+ 
+4.
+
+first value top and bottom ku second value right and left ku
+border: 0 solid black;
+  border-width: 5px 10px ;
+
+  5.
+  top-5px
+  right-10px
+  bottom-15px,
+  left ku right oda 10px ha eduthukum
+  border: 0 solid black;
+  border-width: 5px 10px 15px ;
+
+  6.
+  thani thaniya kuda eluthalaym
+  border-style:solid;
+  border-color:black;
+  border-width:5px;
+
+7.border radius use pani shape form panalam edhula circle form panirupan
+atha percentage la than podanum px use panna oru oru value ha cicle form agutha nu check pannanum
+border: 2px solid black;
+  border-radius: 100%;  
+
+  8.css shapes practice pannaum na entha website po
+  https://css-tricks.com/the-shapes-of-css/
+
+*/
+}

@@ -1,0 +1,76 @@
+/* note-flex  property lam parent la than apply pannuvom 
+flex oda default direction vanthu horizontal than
+
+for horizontal ku edhu column ku appidiya marum 
+even ha cut panurathu major axis ku justifycontent property kudupom
+side side ha cut panurathu cross axis ku align items kudupom
+screen shot attach panirukan
+
+how to center a div 
+
+parentku flex property kuduthutu 
+justify-content=center
+align-item=center
+
+eppdikudutha pothum center agidum
+
+*/
+/* 1 
+entha flex column ku row ku appidiya ulta*/
+.boxes {
+  /* 1. */
+  border: 2px solid black;
+  /* 6 */
+  display: flex;
+  /* 7 */
+  flex-direction: column;
+  /*column-reverse kudutha last apply panruka color frts varum frst apply paniruka color last la pogum
+                 but 
+  justify-content: flex-start;
+  align-items: start;
+  eppidi  kudutha reverse agum but adhu kela erunthu start agi reverse agum
+                   */
+  /* 8 */
+  margin: 20px;
+  /* 9. 
+  edhu major
+  y-axis la center la varum
+  enum clarification venum na screenshot attach panirukan*/
+  justify-content: center;
+  /* flex-start na y-axis mela otikum
+                  flex-end na y-axis kela otikum */
+  /* 10
+  edhu cross axis 
+  x-axis la center varum
+  
+  */
+  align-items: center;
+  /* flex-start
+              flex-end */
+
+  /* 11 */
+  height: 90vh;
+  /* 12. */
+  width: 90vw;
+}
+
+/* 5*16=80px eduthukum
+   moonu box eduthukum 80px height and 80px width nu 
+   thani thaiya vum eluthalam but moonuthukum common ha height width erukurathunala eppidi eluthirukan  */
+/* 2 */
+.box {
+  height: 5rem;
+  width: 5rem;
+}
+/* 3 */
+.box_one {
+  background-color: aqua;
+}
+/* 4 */
+.box_two {
+  background-color: blue;
+}
+/* 5 */
+.box_three {
+  background-color: brown;
+}

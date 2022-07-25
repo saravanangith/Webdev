@@ -1,0 +1,52 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+}
+
+header {
+  background-color: black;
+  /* 100vh height la erunthu 10% eduthukuthu */
+  height: 10%;
+  width: 100%;
+}
+.main {
+  display: flex;
+  /*   100vh height la erunthu 80% eduthukuthu */
+  height: 80%;
+  width: 100%;
+}
+
+/* edhoda parent main than so height 100% na 80% eduthukum */
+.box {
+  height: 100%;
+  width: 50%;
+}
+
+.left-one {
+  background-color: aquamarine;
+  /* main than parent so total height 80%
+  kela height 50% na 40% height ha edthukum  */
+  height: 50%;
+  /* main oda width 100% so adhula pathi ana 50% than eduthukum */
+  width: 100%;
+}
+.left-two {
+  background-color: aqua;
+  /* main than parent so total height 80%
+  kela height 50% na 40% height ha edthukum  */
+  height: 50%;
+  /* main oda width 100% so adhula pathi ana 50% than eduthukum */
+  width: 100%;
+}
+.right {
+  background-color: blue;
+  /* main oda 80% height than enga 100% height */
+  height: 100%;
+  /* main 100% adhoda pathi width 50% eduthukum */
+  width: 50%;
+}
+footer {
+  height: 10%;
+  width: 100%;
+  background-color: hotpink;
+}

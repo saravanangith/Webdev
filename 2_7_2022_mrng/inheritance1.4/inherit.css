@@ -1,0 +1,28 @@
+/*
+
+1.
+
+eppidi pota strong kukum color apply agum 
+p {
+  color: teal;
+}
+
+
+initial pota strong la inherit ana color ha remove pamidum  
+strong {
+  color: initial;
+}
+*/
+
+/* css la sila property child apply agathu adhula onu than entha 
+broder property
+2.
+p {
+  border: 2px solid black;
+}
+
+ethula force pani broder property ha  parent ta erunthu vangirukan 
+ strong {
+  border: inherit;
+}
+*/

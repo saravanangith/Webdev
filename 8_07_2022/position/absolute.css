@@ -1,0 +1,44 @@
+.main {
+  border: 2px solid black;
+  /* 
+  3
+  position: relative; */
+}
+
+.box {
+  width: 10rem;
+  height: 10rem;
+}
+
+.box-one {
+  background-color: turquoise;
+}
+/* absolute dom element la erunthu cut agi mela erukum 
+kela eruka third box mela erukura second box oda space occupy panikum 2nd box overlap agirukuthunala 3rd box
+maranchirukum  kela erukura box ha pakanum na width property ha uncomment paru 
+
+left,right property edhukuna eppa edhuku parent default ha body than so screen oda left side bottom corner ku poidum
+ enga main box than parent so atha ha relative set pana antha border kula than box erukum
+ main box ku relative set panitu left and wright property kuduthurupan 3.1 css
+ notes: absolute use panura child ku absolute kuduthutu  parent ku relative set pannanum 
+
+ relative apidi kedaiyathu ana edhuku vena kudukalam
+*/
+.box-two {
+  background-color: teal;
+  position: absolute;
+
+  /*1.
+   width: 5rem; */
+  /* 2.
+  left: 10px;
+  bottom: 50px; */
+
+  /*
+  3.1
+   top: 0;
+  right: 0; */
+}
+.box-three {
+  background-color: royalblue;
+}

@@ -1,0 +1,14 @@
+/* list-style-type-default disc type than erukum */
+
+li {
+  list-style-type: disc;
+  /*
+                  easy just expolre by right clicking on inspect
+                  auto
+                  circle
+                  square
+                  disclosure-closed
+                  disclosure-open
+                  decimal
+                  */
+}

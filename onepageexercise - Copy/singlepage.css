@@ -1,0 +1,33 @@
+#first {
+  margin-top: 50px;
+  color: black;
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+.con1 {
+  background-color: green;
+  width: 100px;
+  text-align: center;
+  color: azure;
+  margin: 0px;
+}
+body {
+  background-color: black;
+}
+
+h1 {
+  color: azure;
+  font-family: system-ui;
+}
+p {
+  color: azure;
+}
+
+.My {
+  margin-bottom: 300px;
+  margin-left: 200px;
+  margin-top: 0px;
+  margin-right: 0px;
+}

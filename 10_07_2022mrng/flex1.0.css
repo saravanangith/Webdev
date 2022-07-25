@@ -1,0 +1,78 @@
+.boxes {
+  border: 2px solid black;
+
+  display: flex;
+
+  margin: 20px;
+
+  justify-content: center;
+
+  align-items: center;
+
+  height: 90vh;
+
+  width: 90vw;
+}
+
+.box {
+  height: 5rem;
+  width: 5rem;
+  margin: 2rem;
+  /* width increase panura property
+  screen size minimize panalum responsive ha erukum */
+  /* 1. 
+  flex-basis: 10rem; */
+}
+/* flex-basis: 10rem; 
+ 
+ thani thaniya kuda podalam oru oru box ha kuda*/
+.box_one {
+  /* 2. 
+  flex-shrink: 3; 
+  entha box size kammi pana sola 3times speed ha shrink agum*/
+  background-color: aqua;
+
+  /*
+   5.  
+
+   screen size 100px la na edhu 3 pangu eduthukum
+   entha 3 box um 100/5=20px adhula frst box 20*3=60 px  screen sizeeduthukum
+  flex-grow: 3; */
+
+  /* 
+  8.
+  next 2 box ku flex-grow kuduthurukamaten eppidi eduthukumna antha erandu boxkum 5rem default ha eduthutu
+  edhuku screen size evlo eruko atha pirichi kuduthurum
+  flex-grow: 2; */
+}
+
+.box_two {
+  /* 3. 
+
+
+
+  flex-shrink: 2;
+  entha box size kammi pana sola 2times speed ha shrink agum*/
+  background-color: blue;
+
+  /*
+   6. screen size 100px la na edhu 2 pangu eduthukum 
+   entha box 20*2=40px
+  flex-grow: 2; */
+}
+
+.box_three {
+  /*4. 
+  edhuku flex-shrink kudukala so 1nu  value eduthukum
+  entha box size kammi pana sola 1times speed ha shrink agum*/
+
+  background-color: brown;
+
+  /* 7.
+  edhu 5rem default ha eduthukum 
+   screen size 100px la na edhu 1 pangu eduthukum  flex grow kudukala so 5rem width eduthukum*/
+
+  /* 
+  8.
+  background-color: brown; */
+}

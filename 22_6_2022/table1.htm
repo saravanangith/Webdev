@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./table1.css" />
+  </head>
+  <body>
+    <table>
+      <thead>
+        <!--this is for seo purpose thead,tfoot,tbody -->
+        <tr>
+          <th colspan="2">name</th>
+          <!--colspan na column vise 2rundu space eduthukum -->
+          <th>age</th>
+          <th>email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">4</td>
+          <!--row wise 2 space eduthukum-->
+          <td>5</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>7</td>
+
+          <td>8</td>
+          <td>9</td>
+        </tr>
+
+        <tr rowspan="3">
+          <!--kela footer erukurathunala expand agathu but  doubt->(head and body same nenaikuren)-->
+          <td>7</td>
+          <td>8</td>
+          <td>9</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td colspan="3">7</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+.body {
+  margin: 10px;
+}
+.box {
+  height: 100px;
+  width: 100px;
+
+  /*
+  named-yellow green antha mathiri naming
+  rgb
+  hsl
+  hexadecimal
+
+  1.
+ color picker website poitu color choose panikalam
+  background-color: yellow;
+
+  */
+  /*
+  2.
+edhula na manuual ha 50 50 50 kuduthan illa color picker website layum poi kuda eduthukalam
+  background-color: rgb(50, 50, 50);
+  */
+  /*
+  3.
+  edhu color picker website la eduthathu
+  
+  background-color: rgb(84, 50, 168);
+  */
+  /* 4
+  rgb pakathula a eruku adhuku name  opacity upto 1 varikum than value opacity na blur or light illa dark kuda sollalm 
+  rgb pakathula color box erukum anga poi over panni left side onu erukum atha drag panna color marum
+
+  background-color: rgba(144, 132, 168, 0.507);
+  */
+  /*5.
+
+  hsla
+
+
+color picker laa erunthu copy panna sola degree type deg nu mathanum
+degree vanthu color dark 
+next erukura percentage vanthu dark ha venum ha illa light ha  venum ha nu 
+3rd erukura thu ligthness evlo light ha venum nu
+4th opacity 
+  background-color: hsla(257deg, 54%, 43%, 0.5);
+  */
+
+  /*
+  6. hexa decimal
+  always prefer named and hexa decimal 
+
+  hexa decimal la opacity apply panna mudiyathu so apa vena rgb and hsl polam.
+  epayum light gray mathirya ana color kuduyha page nala erukum.
+  color picker la erunthu eduthatahu 
+  background-color: #8932a9;
+
+  */
+}

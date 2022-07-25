@@ -1,0 +1,18 @@
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+img {
+  margin: 10px;
+}
+/* how to remove the space inbetween
+column pota vera mathiri behav panuthu why */
+section {
+  border: 2px solid black;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}

@@ -1,0 +1,17 @@
+.first {
+  display: flex;
+
+  justify-content: center;
+  align-content: center;
+}
+
+img {
+  float: left;
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+}
+
+.second {
+  clear: both;
+}

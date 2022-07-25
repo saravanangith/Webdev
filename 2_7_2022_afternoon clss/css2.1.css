@@ -1,0 +1,62 @@
+/*linear gradient */
+
+.box {
+  width: 100px;
+  height: 100px;
+  /* default ha top to bottom varum
+  bracket kula ethana color venalim kdukalam
+  1.
+  background: linear-gradient(red, yellow);
+  */
+  /*
+  default ha left erukum right kuduthathuala right pakam left la erunthu pogum
+  
+2.
+  background: linear-gradient(to right, red, yellow); */
+
+  /* top left la erunthu bootom right ku merge aga pakum
+  3.
+
+  bottom left kudutha top right la erunthu start agi bottom left move agum
+   background: linear-gradient(to bottom right, red, yellow); */
+
+  /* 4. degree vachu use panurathu  90deg na direction mean panuthu 
+  background: linear-gradient(90deg, red, yellow); */
+
+  /*
+  background: linear-gradient(30deg, red, yellow);
+  */
+
+  /*
+  evlo  percentage occupy pannanum kaga kudukuathuku
+  background: linear-gradient(90deg, red 90%, yellow);
+  */
+
+  /*centre la red outer la yellow
+  edhu square nala round ha form agirukkum but edhuva width ha increase pana oval mathiri form agum
+  background: radial-gradient(red, yellow);*/
+  /*2.
+  width ha increase panalum circle than venuma na etha podanum athala mudinja alavuku circle form panum 
+  width oru 400px try pani paru
+  
+  background: radial-gradient(circle, red, yellow);
+  */
+  /*3  mela cirlce mathiri form agum top middle la 
+  background: radial-gradient(circle at top, red, yellow);
+  */
+
+  /* css gradient nu website erukuku 
+  https://cssgradient.io/
+
+
+  
+2 one explai edhu eppidi start pannaum adhukaga deg aprm color kaga rgb and % adutha color kaga dgree and percentage
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+*/
+}

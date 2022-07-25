@@ -1,0 +1,79 @@
+/* float entha box ha htlm dom la erunthu eduthurum relative ha erukum athavathu reference eruku dom la
+  so apa paranthutu erukum side la erukura space erukathu  
+  float left right kuda kuduthukalam ana img kudukanum
+  */
+
+/* 
+1st
+.box {
+
+  height: 100px;
+  
+  width: 100px;
+  
+  background-color: hotpink;
+
+  float: left;
+
+   
+} */
+
+/* 
+2.edhula float ha clear panirupan
+para taga appidina next linku poidum
+.box {
+  
+  height: 100px;
+
+  width: 100px;
+  
+  background-color: hotpink;
+
+  
+  float: left;
+}
+clear ku left,right kuda kuduthukalam ana both kudukurathu better
+.clear {
+  clear: both;
+} */
+
+/* eppa ena agum na para tag matum than border vanthurukum screenshot attach panirukan  */
+/* 
+3
+.box {
+  height: 100px;
+
+  width: 100px;
+
+  background-color: hotpink;
+
+  float: left;
+}
+
+.main {
+  border: 2px solid black;
+} */
+/* 
+
+chlid property ku float apply panirupan enga child property box so parent ku clearfix apply panirukan enga 
+parent vanthu main
+4.
+.main {
+  border: 2px solid black;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.box {
+  height: 100px;
+
+  width: 100px;
+
+  background-color: hotpink;
+
+  float: left;
+} */

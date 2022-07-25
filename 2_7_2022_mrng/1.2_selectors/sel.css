@@ -1,0 +1,47 @@
+a[target="_blank"] {
+  color: aquamarine;
+}
+a[href="https://www.google.co.in/"]
+{
+  color: brown;
+}
+
+/*
+3.
+p {
+  color: yellowgreen;
+}
+*/
+
+/*
+4.
+#product p {
+  color: tomato;
+}
+*/
+
+/* >  entha symbol name desendent edhu ena pannaum na product adhuthu erukura para tag ha 
+apply panum like parent and child mathiri
+
+
+5.
+#product > p {
+  color: tomato;
+}
+*/
+
+/*6.
+
+#product + p {
+  color: tomato;
+}
+
+*/
+/*
+7.
+
+#product ~ p {
+  color: blue;
+}
+
+*/

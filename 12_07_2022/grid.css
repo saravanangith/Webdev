@@ -1,0 +1,94 @@
+body {
+  margin: 10px;
+}
+.container {
+  text-align: center;
+  color: white;
+  font-size: bold;
+  height: 3rem;
+}
+
+div:nth-child(n) {
+  background-color: yellowgreen;
+}
+
+div:nth-child(2n) {
+  background-color: dodgerblue;
+}
+div:nth-child(3n) {
+  background-color: rebeccapurple;
+}
+
+/* 
+1.
+
+columns porperty 4 column create panidum ela box oda height 100px
+row property 2 row create agidum elam width um 50px ha erukum
+.container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-rows: 50px 50px;
+} */
+
+/* 
+2.
+edhula 3 row four coulmn eruku appidi kudutha total ha element 8 thana eruku eduthuka matinguthu
+2 row four column ha than eduthukuthu
+venum na div la 9th element add panna ha 3rd row eduthukum.
+.container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-rows: 50px 50px 50px;
+} */
+
+/*
+3.
+3 column 2 row balance erukra element adhoda fontsize ha height edhuthukukum edhula 
+7,8 element vanthu fornt size 17px atha default ha eduthukum 
+.container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 50px 50px;
+} */
+
+/*
+4.
+grid gap space vara vaikurathuku oru oru box ku margin mathiri space varum.
+
+  grid-template-columns: 100px auto auto; 
+  edhu ena panum ba 100px frst width size eduthu balance erukura screen size ha eranda pirichurum
+  ena erandu auto kuduthurukan 
+  responsive ha erukum eppidi pana
+
+.container {
+  display: grid;
+  grid-template-columns: 100px auto auto;
+  grid-template-rows: 50px 50px;
+  grid-gap: 5px;
+} */
+
+/* 
+5.
+1fr+2fr+3fr=6fr total screen size 100%
+so 100/6=16.66 something 
+16,32,60 eppidi occupy panikum
+responsive ha erukum
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 3fr;
+  grid-template-rows: 50px 50px;
+  grid-gap: 5px;
+} */
+
+/* 
+6.
+repeat edhukuna grid-template-columns: 100px 100px 100px 100px; kudupom la atha avoid panurathuku
+grid-template-columns: repeat(2, 1fr)- erandu column edhukutha erandathayum 1fr la prichika 
+  grid-template-rows: repeat(2, 50px)-erandu row eduthuka width 50px kuduthuka 
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 50px);
+  grid-gap: 5px;
+} */

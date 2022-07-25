@@ -1,0 +1,34 @@
+.main {
+  background-color: green;
+
+  /* doubt
+  white color edhuvum aga matinguthu*/
+  color: white;
+  width: 20%;
+  /*
+  li kula erukura a tag ha center panuthu
+  */
+
+  text-align: center;
+}
+li {
+  /*used to remove dot   margin en kuduthom na li:hover la background color kuduthurukum 
+  adhuku top botom matum margin apply agitu left and right fulla vartthuku*/
+  list-style-type: none;
+  margin: 10px 0px;
+}
+li:hover {
+  background-color: white;
+  /* black 
+  entha color property ha kudukamya hover pana black color varuthu t*/
+  color: black;
+}
+a:hover {
+  color: black;
+}
+
+a {
+  /*used to remove underlines from anchor tag  */
+  text-decoration: none;
+  color: white;
+}

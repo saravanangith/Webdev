@@ -1,0 +1,14 @@
+.block {
+  display: block;
+  height: 100px;
+  width: 100px;
+}
+.block1 {
+  display: inline;
+}
+
+.block2 {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+}

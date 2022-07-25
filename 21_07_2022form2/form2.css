@@ -1,0 +1,24 @@
+input {
+  display: block;
+  margin: 3px;
+  background-color: lightgray;
+  outline: 0;
+  border: 1px solid lightgray;
+}
+textarea {
+  display: block;
+  margin: 2px;
+  resize: none;
+  background-color: lightgray;
+  outline: 0;
+  border: 1px solid lightgray;
+}
+
+.total {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  /* doubt */
+  height: 250px;
+}

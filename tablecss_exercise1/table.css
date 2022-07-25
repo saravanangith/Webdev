@@ -1,0 +1,28 @@
+table {
+  background-color: #c4dcf3;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: center;
+  color: white;
+}
+
+td,
+th {
+  padding: 10px;
+}
+thead {
+  background-color: #427fef;
+}
+tfoot {
+  background-color: #427fef;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #eef7ff;
+}
+
+tfoot th {
+  text-align: left;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      img {
+        /*normal ha heighy width kudutha img strecth agum*/
+        height: 300px;
+        width: 300px;
+        object-fit: cover;
+        /*cover-image size eduthukum like 100*100 aprm  adhuku etha mathiri adjust image oda shape ha maintain pannum
+          center la erunthu refrence eduthutu zoom pani antha image ku enalam cover pana mudyiumo adhelam 
+          
+          contain-ena shape vena tha enala ena shape ku reduce pana mudiyum ho antha shape ku redue panidum
+          fill-default property erukura sixe ha strecth pani vachukum ena kudukuromo appidiya varum height and width um
+          none kudutha ena varutho atha panu
+          */
+      }
+
+      .My {
+        height: 400px;
+        width: 400px;
+      }
+
+      #My {
+        height: 400px;
+        width: 500px;
+      }
+    </style>
+  </head>
+  <body>
+    <!--
+        ETHODA EXAMPLES VELILA SS POTU VACHURUKAN
+        
+        edhuku than adhigamana priority eruku once inline nu kuduthuta etha than eduthukum ena than erunthalum.
+
+
+
+
+-->
+    <!--<img src="../../../webdev_practice/thirdday/image/car.jpg" alt="car" />-->
+
+    <!--
+      
+      Note:Eppa 2 img tag eruku erunduthukum id name same vachuka javacript la document.getlementbyid potu antha img tag oda id ha access panna first erukura id matum than eduthukum javascript ku sense eruku ana html css ku illa 
+But adhuva css 2rand img tag eruku erunduthukum id name same vachuka antha id ha access panna erundu taglayum color apply agum 
+
+      <img id="My" src="./image/bike.jpg" alt="bike" />
+    <img id="My" src="./image/sunflower-1627193_1920.jpg" alt="sunflower" />-->
+
+    <!--More than one element ku same property use panurathuku than class eruku
+Javascript la document.getelementbyclassname onu erukku atha  use pani class ha access pannalam same class name eruntha erandum eduthukum js. id mathiri kedaiyathu.-->
+
+    <img class="My" src="./image/bike.jpg" alt="bike" />
+    <img class="My" src="./image/sunflower-1627193_1920.jpg" alt="sunflower" />
+
+    <img id="My" src="./image/bike.jpg" alt="bike" />
+    <img id="My" src="./image/sunflower-1627193_1920.jpg" alt="sunflower" />
+  </body>
+</html>

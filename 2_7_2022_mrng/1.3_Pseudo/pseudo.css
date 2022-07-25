@@ -1,0 +1,133 @@
+/*pseudo means false
+edhelam pseudo class selectors
+para tag fulla mathanum appidina  pseudo class selectors use panuvom
+athavathu oru element ha fulla mathanumna 
+*/
+
+/*
+first para ku apply agirukum
+1:18:00
+
+article:first-child {
+  color: aqua;
+}
+
+*/
+
+/*
+2.
+article :first-child {
+  color: aqua;
+}
+*/
+/*
+3.
+edhu edhukuna p,p,h2,h2,h1 eppidi html page la kuduthurukan
+elathoda first varathuku color apply agum  p,p,h2,h2,h1 for eg frst p,h2,h1 edhuku matum color apply agum
+
+article :first-of-type {
+  color: gold;
+}
+
+*/
+
+/*
+4.
+kadasiya edhu erukotho atha edhuthukum 
+
+p,p,h2,h2,h1 edhula kadasiya h1 than eruku atha eduthukum
+
+article :last-child {
+  color: gold;
+}
+*/
+
+/*
+5.
+p,p,h2,h2,h1 2nd para 2nd h2,last h1 eduthukuthu  ena enga h1 onu than eruku so atha last 
+nu consider panikuthu but eddhuva enoru h1 kudutha adhuku color apply aguthu.
+
+
+
+article :last-of-type {
+  color: gold;
+}
+*/
+
+/*
+6. munadi padichi child property than
+ul li:nth-child(2n) {
+  color: blue;
+}
+*/
+
+/*
+7.
+
+a {
+  color: yellowgreen;
+}
+
+a:visited {
+  color: red;
+}
+
+*/
+/*
+8.
+hover pana sola wheat color la varum 
+background color yellow ha maridum
+a:hover {
+  color: wheat;
+  background-color: yellow;
+}
+
+click pani hold panna etha color apply agum
+a:focus {
+  color: cadetblue;
+}
+*/
+/*----------------------------
+*/
+
+/* Pseudo element slectors appidina :: entha mathiri erandu colon vaiakanum
+edhu edhuku use panurom na oru element kula poi mathanum ha etha use panurom
+for eg: elemnet kula erukura first letter antha mathiri.
+
+1.
+
+p::first-letter {
+  color: aqua;
+  font-size: 101px;
+}
+note:
+p::first-line kudutha first line full ha color varumm screen size ha zoom out panna 
+next line la erukura line lam first line la varum adhuku da color apply agum 
+ena adhuku line kanakuthan.
+
+
+*/
+
+/*
+2.
+crusor ha  click pani drag panna sola blue color varum la atha mathuraathuku 
+p::selection {
+  color: red;
+  background-color: greenyellow;
+}
+
+note:
+::selection eppidi kudutha full browser um  eduthukum
+*/
+
+/*
+3.
+edhu edhuku na para tag starting la varum string la dot kudukanum than avasiyam illa ena vena kudukalam
+but etha select panna mudiyathu ena edhu css property
+display block kudutha next line poidum para tag hu enthha dot vanthu block ha maridum 
+
+p::before {
+  content: "...";
+}
+
+*/

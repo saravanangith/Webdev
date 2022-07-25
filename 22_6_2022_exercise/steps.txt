@@ -1,0 +1,26 @@
+1.table
+2.tr
+3.td
+
+table use panni thead,tbody lam kudukama nthchild vachu color kudutha thani thaniyalam color eduthukathu motham ha eduthukum(23/6/2022 duration 20:30) 
+
+above exercise la first
+border property tharanum table ku 
+
+td ku border property apply panuren next
+
+tabel ku poi border collapsse nu oru property ha apply panuren 
+
+doubts 
+
+border property ku 2px kudutha lines lam differ aguthu ana na panna exercise la agala.
+23/6/22-edhula frst oruthanga keturupanga doubt hu adhula thead and tbody matum than color apply agirukum ena na 
+avanga 2nd row matum color appnirupanga 7:20 duration tfoot la eduthukatha mathiri solirupan.
+
+
+list style type lam element.style poi change pananum ha illa inherited ul change pananum ha 
+
+user agent stylesheet?
+
+git branch =kudutha local folder la erukurathulam katum nenaikuren doubt ha eruku 
+

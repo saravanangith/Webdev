@@ -1,0 +1,57 @@
+/*table ha porutha varikum entha property kuduthalum td kudu main property lam table tagle la kudu */
+/*td,th tag ku entha file la width,height change panirukan*/
+
+table {
+  /* border: 2px solid black; -table border varum edhu vanthu td la kuduthathunala enga kuduka venam*/
+  border-collapse: collapse;
+  /*edhula separate option erukuk adhu seaparte paniviturum
+  actual ha table kum height kudukalam td ku height,width kudukalam more
+  preffere way td kdukurathuthan
+  height: 400px;
+  width: 400px; */
+}
+/*
+note-tr property kudutha eduthukathu
+tr {
+  border: 2px solid black;
+}
+*/
+td,
+th {
+  height: 70px;
+  width: 120px;
+  /**/
+  border: 2px solid black;
+  text-align: center;
+  /*left-leftside pogum
+              right
+              justify-doubt*/
+}
+
+/*edhu elathuku color apply agum*/
+/*
+td:nth-child(n) {
+  background-color: dodgerblue;
+}*/
+
+/*edhu 2 colum full ha color apllpy agum like 1st row la 2clo ,2ndrow la 2ndcol
+even table number column apply agum lam apply agum*/
+
+/*
+td:nth-child(2n) {
+  background-color: aqua;
+}*/
+
+/*even parameter pass pana even matum apply agum*/
+/*even table row matum apply agum*/
+tr:nth-child(n) {
+  background-color: white;
+}
+/*
+odd nu parameter pass panna add matum agum
+tr:nth-child(2n) {
+  background-color: dodgerblue;
+}*/
+tr:nth-child(3n-2) {
+  background-color: white;
+}

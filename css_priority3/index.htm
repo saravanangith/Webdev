@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./about.css" />
+
+    <style>
+      img {
+        height: 300px;
+        width: 300px;
+      }
+    </style>
+  </head>
+
+  <!--
+    PRIRIORITY :
+Inline:-1st prority
+
+Internal or embedded: 2nd priority
+Id>class>tags
+
+External-3rd priority
+Id>class>tags
+
+
+
+For example html page la head tag la style eluthuran same external avum oru css file eluthuren eppa ena na external file la #bike nu oru id use panuren same internalyum #bike use panuren
+yedhuku priority adhigam na internal id than so internal property ana id than  eduthuku adhu
+but 
+internal la tag vachu img tag oda property ha eluthuren same time external la id or class vachu eluthurana external a class or id than eduthukum  bcoz ethan reason
+
+internal id vs external id na =internal id than 
+internal class vs external class na =internal class than 
+
+internal tag vs external id or class na= external id or class
+
+  -->
+  <body>
+    <!--eppidi kudutha id than eduthuku edhula kuduthuruka height width default ha img tag odathu-->
+    <img
+      id="bike"
+      class="bike"
+      src="./images/bike.jpg"
+      alt="bike"
+      width="42"
+      height="42"
+    />
+    <!--elatha vida inline than priority adigam -->
+    <img
+      id="bike"
+      class="bike"
+      src="./images/bike.jpg"
+      alt="bike"
+      style="width: 50px; height: 50px"
+    />
+
+    <!--  <img class="car" src="./images/car.jpg" alt="car" />-->
+  </body>
+</html>

@@ -1,0 +1,54 @@
+/*
+
+0.
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+} */
+
+/* width % la kuduthrukan appidina edhuku parent vanthu body 1000px  screen size eruntha 500 eduthukum aprm screen szie kami panna kami panna
+responsive agidum. 
+1st
+body {
+  width: 400px;
+}
+
+.mainbox {
+  width: 50%;
+  height: 400px;
+  background-color: yellowgreen;
+}
+body 400px adhula pathi  mainbox eduthuku 200px eduthuku inner box 100px eduthukum 50% na 
+
+body tag matum comment panita screen size ku mainbox vanthurum atha poruthu inner box um size vary agidum
+.innerbox {
+  width: 50%;
+  height: 100px;
+  background-color: black;
+}
+
+*/
+
+/* 
+
+XXXXX----div ku % la height eduthukathu ena ula podura content ha poruthu than %work agum
+but px appidi illa nenaikuren   */
+/*
+2nd
+box {
+  width: 50%;
+  height: 50%;
+  background-color: violet;
+}
+*/
+
+/*
+3. 
+minimize pani patha responsive ha erukum
+.box {
+  width: 50%;
+  height: 50vh;
+  background-color: violet;
+} */

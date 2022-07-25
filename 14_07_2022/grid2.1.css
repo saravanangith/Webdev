@@ -1,0 +1,85 @@
+/* 1 */
+body {
+  margin: 20px;
+}
+/* 2 */
+.box:nth-child(n) {
+  background-color: aquamarine;
+}
+/* 3 */
+.box:nth-child(2n) {
+  background-color: yellowgreen;
+}
+/* 4 */
+.box:nth-child(3n) {
+  background-color: purple;
+}
+/* edhu edhuku kudukurom na mela 3n kuduthurukom 
+so 3,6,9, color apply agum 6 vera color kdukurathukaga eppidi panurom illana execute pani paka sola theriyum  */
+/* 6 */
+.box:nth-child(6n) {
+  background-color: yellow;
+}
+
+/* 3 column erandu row ku  matum apply  agum blanace erukurathukulam
+content size ha eduthukum
+
+ */
+
+/*  
+  grid-template-columns: repeat(3, 1fr);
+  etha fraction ha mathuna responsive ha erukum and screen size poruthu kami agurathunala 
+  box shape marum but kela pogathu box lam.
+*/
+.container {
+  /* 7. */
+  display: grid;
+  /* 8.
+  edhu responsive ha erukathu 
+  grid-template-columns: repeat(3, 100px);
+  */
+  /* 11.
+  auto-fit property ena pananum na 
+  unoda  screen size ku evlo fit agutho avlo eduthukum minimzie pani screen size ha adjust panna
+  box kela kela move ha same shape la erukum ethana crt ana responsive
+ grid-template-rows: repeat(2, 100px);
+ but edhu kuduthurukathunala 2 rows varikum than applicable 
+ next row ku pochuna i mean 2 row ku mela pochu 3rd row la erunthu
+ content size ha    eduthukum
+  */
+
+  grid-template-columns: repeat(auto-fit, 100px);
+
+  /* 12. 
+    grid-template-columns: repeat(auto-fit, 1fr);
+    fr la  kudthutha frst box ha screen size fulla ha eduthukum 
+    so edhu velaikagathu
+    
+      grid-template-columns: repeat(auto-fit, 100%);
+      % kudutha parent edhuku body so full width edhukum 1st box 
+      3rd box full width eduthukum adhuku aprm content size eduthuku ena 
+      2varium than kuduthurkan refer 9th point
+      */
+
+  /* 9. */
+  grid-template-rows: repeat(2, 100px);
+  /* 10 */
+  grid-gap: 5px;
+
+  /* 13.
+  grid-template-rows: repeat(2, 100px);
+  erandu row mela screen size panna content size eduthukum
+  adhuku mela size increase pananumna edhu kudukanum
+    grid-auto-rows: 50px;
+    3rd row la erunthu 50 px apply agum
+
+  */
+  grid-auto-rows: 50px;
+
+  /* note
+  grid-template-rows: repeat(2, 100px);
+  etha comment panitu etha matum kudutha 
+    grid-auto-rows: 50px;
+fullathukum 50px apply agum 
+  */
+}

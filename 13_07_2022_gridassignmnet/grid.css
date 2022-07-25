@@ -1,0 +1,41 @@
+body {
+  margin: 10px;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  grid-template-rows: repeat(4, 150px);
+}
+
+.box1 {
+  background-color: aqua;
+}
+
+.box2 {
+  background-color: hotpink;
+  grid-column-start: 2;
+  grid-column-end: -1;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.box3 {
+  background-color: yellow;
+}
+.box4 {
+  background-color: yellowgreen;
+}
+.box5 {
+  background-color: firebrick;
+}
+.box6 {
+  background-color: royalblue;
+}
+.box7 {
+  background-color: indigo;
+}
+.box8 {
+  background-color: olivedrab;
+}
+.box9 {
+  background-color: rosybrown;
+}

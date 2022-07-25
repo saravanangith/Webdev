@@ -1,0 +1,74 @@
+/* 1 
+entha flex column ku row ku appidiya ulta*/
+.boxes {
+  border: 2px solid black;
+  /* 6 */
+  display: flex;
+  /* 7 */
+  flex-direction: row;
+  /*column-reverse kudutha last apply panruka color frts varum frst apply paniruka color last la pogum
+                 but 
+  justify-content: flex-start;
+  align-items: start;
+  eppidi kuduhu kudutha reverse agum but adhu kela erunthu start agi reverse agum
+                   */
+  /* 8 */
+  margin: 20px;
+  /* 9. 
+  edhu major
+  y-axis la center la varum*/
+  justify-content: center;
+  /* flex-start na y-axis mela otikum
+                  flex-end na y-axis kela otikum */
+  /* 10
+  edhu cross axis 
+  x-axis la center varum
+  oru oru item ha move panurathu 
+  */
+
+  align-items: center;
+  /* flex-start
+              flex-end */
+
+  /* 11 */
+  height: 90vh;
+  /* 12. */
+  width: 90vw;
+  /* 13 
+  initial ha no wrap erukum */
+
+  flex-wrap: wrap;
+
+  /* 14 
+  motha  ha sethu move panurathu
+  3 row sethu ona eduthukum */
+  align-content: center;
+
+  /* 15 
+  edhuku screenshot attach pani vachurukan 
+  */
+
+  justify-content: space-around;
+  /* space-between- */
+}
+
+/* 5*16=80px eduthukum
+   moonu box eduthukum 80px height and 80px width nu 
+   thani thaiya vum eluthalam but moonuthukum common ha height width erukurathunala eppidi eluthirukan  */
+/* 2 */
+.box {
+  height: 5rem;
+  width: 5rem;
+}
+/* 3 */
+.box_one {
+  background-color: aqua;
+}
+/* 4 */
+.box_two {
+  background-color: blue;
+}
+/* 5 */
+.box_three {
+  background-color: brown;
+}
