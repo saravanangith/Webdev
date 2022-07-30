@@ -1,0 +1,141 @@
+/* 
+
+media queries la two type of approach eruku
+mobile approach
+desktop approach
+
+mobile approach-mothala mobile ku design poduvom
+desktop approach-mothala desktop ku design poduvom
+but prefrred way ena nu pathinga na mobile than ena chinna thu perusu akurathu easy but perusu la erunthu
+chinathu akurathu kastam.
+
+according to typography 8-13 words than kudukanum apa tha visible ha erukum
+
+*/
+/*1*/
+div:nth-child(n) {
+  background-color: cadetblue;
+}
+/* 2 */
+div:nth-child(2n) {
+  background-color: springgreen;
+}
+/*  3*/
+.container {
+  /* 4 */
+  display: flex;
+  /* 7 edhu kuduthathu nala than row ha kela kela podhu */
+  flex-direction: column;
+  /* 5 eppidi center pana mela than erukum ena height propert kudutha than center agum*/
+  justify-content: center;
+  /* 6 */
+  align-items: center;
+
+  /*
+  8 
+  height: 100vh; */
+}
+
+/* 9.
+mela eluthiyukurathu elam mobile ku 
+
+eppa elutha pora media query vanthu desktop ku
+
+
+*/
+/* 10 min-width: 640px- edhuku ena artham na screen 639 px erukura varikum mela erukura flex-direction
+property apply agum  adhu mela screen pochu na kela erukura property apply agi differentiate agidum
+ eppidi check pannanum na right click panni inspect kuduthu screen size kammi panna top-right la patha
+ screen size theriyum
+ 
+ 
+ */
+
+/* 11.
+ @media screen and (min-width: 640px) {
+  
+  .container {
+    flex-direction: row;
+  }
+}
+
+     */
+
+/* 
+12.
+
+
+min to max etha apply panu aprm balance mela mobile eluthiruka 
+property ha apply panikum
+@media screen and (min-width: 640px) and (max-width: 800px) {
+  
+  .container {
+    flex-direction: row;
+  }
+} */
+
+/* 
+13.
+verum max-width kudtha edhu eppa mobile approach ha maridum
+upto 640px varikum diffrentiate ha erukum aprm mela erukura 
+7th flex-direction property apply agidum eppa adhu desktop 
+@media screen and (max-width: 640px) {
+
+  .container {
+    flex-direction: row;
+  }
+} */
+
+/* 
+14.
+800px ku  thaniya kuda media query eluthikalam venuna kuda 
+note media query eduthutu point  mela erukura 2nd and 3rd point naduvula 
+pota work agathu because kela 3rd point media query ha ovveride panidum
+
+@media screen and (max-width: 800px) {
+  
+  .container {
+    flex-direction: row;
+  }
+}  */
+
+/* 15 
+normal ha eruntha i mean 640px kula eruntha entha font size
+apply agum adhuku mela pona kela erukura media screen property appy agum adhoda 
+font size apply agum
+
+p {
+  font-size: 24px;
+  margin: 5px;
+}
+
+
+@media screen and (min-width: 640px) {
+  .container {
+    flex-direction: row;
+  }
+
+  p {
+    font-size: 10px;
+  }
+}
+ */
+/* 
+
+16.
+
+print option change panurathuku edhu 
+browser poi ctrl +p kuduthu print page open agum
+side la potratit la erunthu landscape ku mathuna kela erukura 
+property lam apply agum 
+padding en 20pt kuduthana printer oda language pt nurathu 
+fontsize 2mm suma kuduthathu venum na px kuda kuduthukalam
+@media print and (min-width: 640px) {
+  .container {
+    padding: 20pt;
+  }
+  p {
+    font-size: 2mm;
+  }
+}
+ */

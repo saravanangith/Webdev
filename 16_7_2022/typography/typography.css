@@ -1,0 +1,58 @@
+/* 1.
+
+edhuku peru font stack
+
+and web save fonts edhelam appidina edha use panna ela browserlayum work agum edhu so
+athan websave fonts nu soluranga
+
+actula frst nabakita georgia style erukanu pakum illna next times new roman apply panum 
+adhuvum illa na aduthu eppidi aduthu aduthu apply panum edhuvum ha illana browser oda default
+font-style  apply panum 
+*/
+/* 
+edhula times new roman matum quotes la erukuna  moonu words  thani thani ya eruku 2nd word thani thaniya erunthava 
+quotes la than erukum
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+} */
+/* 2.
+helevtica mac oda font edhula erukathu  so times new roman apply panidum
+p{
+    font-style: helvetica;
+}
+ */
+
+/* 3.
+elathukum ora font apply pannanum na body tag la poturanum 
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+*/
+/* 4. 
+
+edhu edhukuna for example windows oda default font size poi apply katuna apple user ku pudikathu 
+adhukaga lam okanthu code eluthitu erukanum nu avasiyam ila kela erukura font-family ha kudutha va 
+pothum atha athoda la crt ha set agikom
+
+
+h1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+*/
+
+/* 5.
+font family style la vera website la erunthu eduthuthu vanthu attacha panalam 
+website poitu roboto va illa vera ethachuna va nu select panitu side la link erukum full ha copy pani  html paste panitu
+link copy pana edathula kela va css eruku atha copy pani eduhu naba css file la paste panika 
+vendiyathuthan 
+https://fonts.google.com/
+
+doubt eruku edhula
+
+*/
+
+/* p {
+  font-family: "Roboto", sans-serif;
+} */
