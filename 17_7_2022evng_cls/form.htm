@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./form.css" />
+  </head>
+  <body>
+    <!-- 
+        website-na static ha erukum for ed apple website la lam avonda products ha show panuvan
+        webapplication na- eg form fill panura website eduthuka athan webapplication user interactive ha erukum
+        1.
+       1stcss,2ndcss,3rdcss use panirupan
+        label -just name tharathu
+        id and for edhuku kuduthurukom na nee poi username nura word ha click panna
+        pakathula erukura box select agum adhuku kudukurathu
+
+        submit button- validate pani submit panum eppothiku action form la tharala so eduthutu erase panidum
+        reset button just reset panidum elathayum
+        <form>
+      <div>
+        <label for="userna">username:</label>
+        <input id="userna" type="text" />
+      </div>
+
+      <div>
+        <label for="email">email:</label>
+        <input id="email" type="email" />
+      </div>
+      <button type="submit">submit</button>
+      <button type="reset">reset</button>
+    </form>
+     -->
+
+    <!-- 2.
+
+        yentha css um use panala only html pothum
+      placeholder na text back side la theriyarathuku use panirupanga 
+      value="email" readonly=padika matum than mudiyum edit pana mudiyathu
+      readonly badhila disable nu kuda kudukalam light ha theriyum avlothan diff 
+
+       <form>
+      <div>
+        <label for="userna">username:</label>
+        <input id="userna" type="text" placeholder="Enter the name" />
+      </div>
+
+      <div>
+        <label for="email">email:</label>
+        <input id="email" type="email" value="email" readonly />
+      </div>
+      <button type="submit">submit</button>
+      <button type="reset">reset</button>
+    -->
+    <!-- 3.
+
+    4th css use panirukan
+cols 10 na 10 character size row 3 na 3 rows size box create agidum text area ku value property apply agathu
+only placeholder than ena adhu input mathiri self closing tag kedaiyathu
+<textarea  cols="10" rows="3" placeholder="textarea"></textarea>
+-->
+
+    <!-- 
+        4.autofocus website load ana odana input box la automatic ha cursor anga erukum 
+        <input type="text" autofocus> -->
+
+    <!-- 5. 
+        datalist html inbuilt kediyathu so full ha type pannanum
+        datalist la erukura id um input la erukura list connect panirukan athan same name kuduthurukan
+        datalist use panna kela option erukurathu um select panikalam and type um panikalam input 
+        box la 
+
+        <input type="text" placeholder="select movie" list="movies">
+
+ <datalist id="movies">
+            <option>ko1</option>
+            <option>ko2</option>
+            <option>ko3</option>
+            <option>ko4</option>
+        </datalist>
+       
+        -->
+    <!-- 6.select kudutha erukurathu matum than select pana mudiyum
+        <select multiple>  multiple option drag pani select panikalam
+
+ <select>
+            <option >ko1</option>
+            <option >ko2</option>
+            <option >ko3</option>
+            <option >ko4</option>
+        </select>
+-->
+    <!-- 7. optgroup kuduthurukathunala particition mathiri pirinchurum
+
+<select>
+            <optgroup label="new movies">
+            <option >ko1</option>
+            <option >ko2</option>
+            <option >ko3</option>
+            <option >ko4</option>
+            </optgroup>
+            <optgroup label="old movies">
+            <option >ko1</option>
+            <option >ko2</option>
+            <option >ko3</option>
+            <option >ko4</option>
+            </optgroup>
+        </select>
+-->
+    <!-- 8.
+        id elathukum vera vera kudukanum apa than elam select agum 
+        disabled  -disable agidum and checked-check agierukum
+        <input type="checkbox" id="first" disabled checked>  
+      <label >name5</label>
+         <input type="checkbox" id="first1">  
+      <label >name6</label>
+       <input type="checkbox" id="first2">  
+      <label >name7</label>
+    
+     -->
+    <!-- 9.radio button na ethachu onu click pannanum 
+        name parameter same ha than kudukanum apa than onu click panna mudium
+     <input type="radio" name="first" >  
+      <label >name5</label>
+         <input type="radio" name="first">  
+      <label >name6</label>
+       <input type="radio" name="first">  
+      <label >name7</label>
+    -->
+
+    <!-- 10.
+        name same kuduthalum eranthukum text apply agum ana submit pana sola prechana varum so id kudukura name 
+        name paramater ku kudthuruvanga ena id unique ha than kudupom but kela kdudthurka maten id name um same 
+        therinjurathuku soluren 
+         <input type="text" id="select1" name="first" >  
+      <label >name5</label>
+         
+       <input type="text"  id= "select2" name="first">  
+      <label >name7</label>
+     
+     -->
+    <label for="col">color</label>
+    <input type="color" id="col" />
+    <!-- only date -->
+    <label for="col">color</label>
+    <input type="date" id="col" />
+    <!-- with time oda varum -->
+    <label for="col">color</label>
+    <input type="datetime-local" id="col" />
+
+    <!-- single file -->
+    <label for="col">file</label>
+    <input type="file" id="col" />
+    <!-- multiple file choose panurathuku multiple nura keyword thanthurukan -->
+    <label for="col">file</label>
+    <input type="file" id="col" multiple />
+    <!-- month year matum varum -->
+    <label for="col">month</label>
+    <input type="month" id="col" />
+    <!-- slider varum -->
+    <label for="col">range</label>
+    <input type="range" id="col" />
+    <!-- type pana side x-symbol varum -->
+    <label for="col">search</label>
+    <input type="search" id="col" />
+    <!-- otp vara sola keypad la text badhila number open agum -->
+    <label for="col">tel</label>
+    <input type="tel" id="col" />
+    <!-- week  -->
+    <label for="col">week</label>
+    <input type="week" id="col" />
+    <label for="col">color</label>
+  </body>
+</html>

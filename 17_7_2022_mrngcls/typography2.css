@@ -1,0 +1,203 @@
+/* 3.
+html {
+  font-size: 62.5%;
+}
+*/
+
+/* 1.
+etha mothala kuduthutu para tag ha inspect pani pakanum apa computed poi patha 30px erukum aprm etha comment
+panitu browser la setting poitu search bar la font nu search panni size mathana marum comupted la poi pakanum
+changes lam motha enga fontkjsize kuduthutu than edhelam pananum illa na fontsize computed la katathu
+
+
+but etha uncomment panitu settings la poi enathan large,verylarge nu mathunalum entha 30px la eduthukum
+ana edhu use illa ena user oru oru tharruvum oru mathiri sila peru persu pani papanga
+so adhuku etha mathiri custom ha kudukanum
+*/
+/* p {
+  font-size: 30px;
+} */
+
+/*2.
+rem use pana customize ha panalam
+
+ browser la poi setting poi medium,large,verylarge kudutha vary agum eppa 
+ but rem na 16px eppa enaku  30px venum na 1.875rem tharanum athava thu 30/16=1.875px 
+ edhu konjam kastama erukurathunala 16px ha pothuva html tag la potu 62.5% perichipan 
+ so 16 of 62.5%=10px eppa 3rem na 3*10=30px 1.2rem na 1.2*10=12px so easy ha erukum eppidi pana elam mela 
+ erukura 3 point html tag la poturupan
+ 
+ p {
+  font-size: 1rem;
+}
+ */
+/* -------------------------------------------- */
+/*4.vertical spacing   
+It contains two margin and lineheight
+font size 1 erukanum line-height 1.5ratio la erukanum ethan crt ana ratio eppa ena na oru oru vatiyum font 
+size matha sola line-height um mathanum so adhukaga line-height: 1.5; eppidi kudupanga 
+eppidi kudutha automatic ha font size anavo multiply by 1.5 agidum 
+
+html {
+    1.
+  font-size: 62.5%;
+}
+
+p {
+    2.
+  font-size: 1rem;
+  4.
+  line-height: 1.5;
+}
+
+h1 {
+    3.
+  margin: 3rem 0 0.3rem 0;
+}
+
+
+*/
+/* ----------------------- */
+
+/* 5.Horizontal spacing 
+It contains letter spacing and word spacing
+letter spacing oru oru letter ku between space  kudukum
+word spacing - oru oru word ku naduvula space varum
+
+html {
+1.
+    font-size: 62.5%;
+}
+
+p {
+    2.
+  font-size: 1rem;
+  4.
+  letter-spacing: 1px;
+  5.
+  word-spacing: 2px;
+}
+
+h1 {
+    3.
+  margin: 3rem 0 0.3rem 0;
+}
+
+
+ */
+/* ----------------------------------- */
+/* 6. oru line la max 14 words than erukanum athavathu 6charcater so width :60ch kuduthurupan
+
+1.
+html {
+  font-size: 62.5%;
+}
+
+p {
+
+    2.
+  font-size: 1rem;
+  4.
+  letter-spacing: 1px;
+  5.
+  word-spacing: 2px;
+  6.
+  width: 60ch;
+}
+
+3.
+h1 {
+  margin: 3rem 0 0.3rem 0;
+}
+
+*/
+/* 7.
+text-formating
+textindent- oru para edhuthutana adhula starting line la left la konjam gap varum adhukaga kudukurathu
+text-align = default -left property than ,right,center   
+
+text decoration -line through,underline matum than use panan edhula 
+*/
+/* 
+
+textindent try pana sola text align ha comment panitu try pannu
+html {
+    1.
+  font-size: 62.5%;
+  3.
+  text-align: center;
+4.
+  text-indent: 50px;
+  5.
+  text-decoration: underline;
+}
+
+p {
+2.
+    width: 60ch;
+}
+
+ */
+/* 8. 
+  white-space: nowrap;-screen full ha para pogum i mean orae line pogum next line pogathu
+  edhoda default vanthu wrap than 
+html {
+    1.
+  font-size: 62.5%;
+}
+
+p {
+    2.
+  width: 60ch;
+  3.
+  white-space: nowrap;
+   edhu vanthu 60ch width kuduthurukathnala pathi than eduthukum atha comment pantia screen size eduthukum
+  try this  
+  4.
+  border: 2px solid red;
+    border thandii erukurathu elam marnchruum 
+   5. 
+  overflow: hidden;
+   last la dot dot varum adukuthan edhu
+   6. 
+  text-overflow: ellipsis;
+}
+
+*/
+/* 9. */
+html {
+  /* 1. */
+  font-size: 62.5%;
+}
+
+p {
+  /* 2. */
+  width: 60ch;
+  /*3.
+   oru para va 3 column ha pirikurathu
+   column-count: 3;
+   */
+
+  /*4. 
+  piricha column nadula sapce varavaikurathuku
+   column-gap: 1rem;
+  */
+
+  /*5.
+   column naduvula line vara vaikurathuku
+   column-rule: 2px solid yellowgreen;
+   */
+  /* 8. 
+capitalize-ela letter oda starting um captila letter ha mathidum camel-casing mathiri
+uppercase,lowercase lam eruku
+  */
+  text-transform: capitalize;
+}
+
+body {
+  /* 
+  6.content right side poidum  */
+  direction: rtl;
+  /* 7. */
+  text-align: center;
+}

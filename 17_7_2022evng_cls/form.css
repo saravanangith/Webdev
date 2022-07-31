@@ -1,0 +1,41 @@
+/* body badhila en html element la kudukurom na motha ha build panna sola easy ha erukum appidinu vasanth sonna */
+
+html {
+}
+/* 1. */
+input:focus {
+  /* outline screen shot attach panirukan
+    click pana sola black color border varum default ha 
+    atha zero pani blue color kuduthurukan 
+    border-radius side la bend agurathuku 
+    box-shadow backside blur ha theriyyarathuku   */
+  /* 1 */
+  outline: 0;
+  /* 2 */
+  border: 1px solid blue;
+  /* 3 */
+  border-radius: 2px;
+  /* 4 */
+  box-shadow: 0 0 10px lightblue;
+}
+/* 2. */
+div {
+  /* 5 */
+  margin: 20px;
+}
+/* 3. */
+button {
+  /* 6. */
+  border: 0;
+  /* 7. */
+  color: aliceblue;
+  /* 8. */
+  background-color: lightblue;
+  /* 9 */
+  border-radius: 3px;
+}
+/* 4. */
+textarea {
+  /* 10 */
+  resize: none;
+}
