@@ -1,0 +1,92 @@
+body {
+  /* 5 */
+  display: flex;
+  /* 6 */
+  justify-content: center;
+  /* 7 */
+  align-items: center;
+  /* 8 */
+  height: 100vh;
+}
+
+.box,
+/* 16th point vara sola entha box1 enga poten normal ha box than erunthuchu */
+.box1 {
+  /* 1. */
+  height: 10rem;
+  /* 2. */
+  width: 10rem;
+  /* 3. */
+  background-color: blue;
+  /* 4. */
+  color: white;
+  /* 11
+  animation-name: saravanan;
+  */
+
+  /* 12
+  total ha antha animation property 5s nadakum
+  animation-duration: 5s;  
+  */
+
+  /* 13.
+  5s kalichu than start agum
+  animation-delay: 5s;
+  */
+
+  /* 14.
+  continue ha apply agita erukum illa 2or3 times than venum na adhukuda infinte badhila kuduthukulam
+  animation-iteration-count: infinite;
+  */
+
+  /* 15
+  slow ha start agi fast ha mudiyum nenaikuren already patha ease out than edhu
+  animation-timing-function: ease-out;
+  */
+}
+/* 5
+entha % lam mela kuduthuruka  12.animation-duration: 5s;  ha 0%,15%,45%,75%,100% pirichukuthu 
+*/
+
+@keyframes saravanan {
+  /* 6 */
+  0% {
+    transform: scale(1);
+  }
+  /* 7 */
+  15% {
+    transform: scale(1.5);
+  }
+  /* 8 */
+  45% {
+    background-color: aqua;
+    transform: rotate(30deg);
+  }
+  /* 9 */
+  75% {
+    transform: translate(-50px, -100px);
+  }
+  /* 10 */
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+/* 16. 
+common ha eluthitu 2 box la edhoda class name matum kuduthuruvuom
+*/
+/*  
+.animation-sara {
+  animation-name: saravanan;
+  animation-duration: 5s;
+
+  
+
+  animation-iteration-count: infinite;
+
+  animation-timing-function: ease-out;
+}
+*/
+/* 17.
+https://animate.style/-entha website poitu animation poperty lam copy pani eduthutu varalam
+*/

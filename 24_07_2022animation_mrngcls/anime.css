@@ -1,0 +1,64 @@
+body {
+  /* 5 */
+  display: flex;
+  /* 6 */
+  justify-content: center;
+  /* 7 */
+  align-items: center;
+  /* en etha kudukurom na appa tha body height eduthutu center ha varum illana 
+    content height eduthu top la otikum */
+  /* 8 */
+  height: 100vh;
+}
+
+.box {
+  /* 1. */
+  height: 5rem;
+  /* 2. */
+  width: 5rem;
+  /* 3. */
+  background-color: blue;
+  /* 4. */
+  color: white;
+  /* 14. 
+  5s edhukuna poruma ya move agum
+  */
+  transition: transform 5s;
+}
+
+.box:hover {
+  /* positive la kudutha right la rotate agum negavtive la kudutha left la rotate agum */
+  /* 9.
+  transform: rotate(15deg); */
+
+  /* 10
+  zoom in zoom out mathiri default value one more than one na zoomout less than one na zoom-in mathiri 
+   transform: scale(0.5); */
+
+  /* 11. 
+  slanting ha sairamathiri positive na right side saiyum 
+  negative na left side saiyum
+    transform: skew(15deg);
+  */
+  /* 12.
+   150px right to left move agum 
+  -150px left to right move agum
+  0,150 na top move agum x-axis 0 y axis-150px antha kanaku
+  -100,150px cross ha move agum x-axis -50px y axis 100px
+  transform: translate(-50px, -100px);*/
+
+  /* 13. 
+  mela erukura enoru .box la transition: transform 5s; potu connect panirukan 
+  frst rotate agum aprm translate agum aprm scale agum elam simultaneouly nadakum
+  transform: rotate(35deg) translate(-100px, 150px) scale(1.2);
+  Mathi kuda podalam
+  transform: translate(-100px, 150px) rotate(35deg) scale(1.2);
+  */
+}
+
+/* 15. 
+hover podala so ena agum na kela poi ninudum
+.box {
+  transform: translate(-100px, 150px) rotate(35deg) scale(1.2);
+}
+/*  
